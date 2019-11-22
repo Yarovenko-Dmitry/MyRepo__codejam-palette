@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>codejam-Pallete_Ya</title>
+</head>
+<body>    
+  <div class="wrapper">
+    <header class="header">
+      <div class="nav"></div>
+      <div class="title">
+        <h1 class="codejam">CodeJam - Pallete</h1>
+      </div>
+      <div class="menu"></div>
+    </header>
+
+    <main class="main">
+      <div class="buttons">
+        <div class="button-list">
+          <div class="button-top">
+            <div class="icon top-first"></div>
+            <p>Fill bucket (B)</p>
+          </div>
+
+          <div class="button-top">
+            <div class="icon top-second"></div>
+            <label for="choose-color"><p>Choose color</p></label>
+            <input type="color" id="choose-color" name="choose-color" value="#41F795">  
+          </div>
+          
+          <div class="button-top">
+            <div class="icon top-third"></div>
+            <p>Pencil (P)</p>
+          </div>
+
+          <div class="button-top transform">
+            <div class="icon top-fourth"></div>
+            <p>Transform</p>
+          </div>
+        </div>
+
+        <div class="button-list">
+          <div class="button-bottom">
+            <div class="point bottom-first"></div>
+            <p>Current color</p>
+          </div>
+
+          <div class="button-bottom">
+            <div class="point bottom-second"></div>
+            <p>Prev color</p>
+          </div>
+
+          <div class="button-bottom">
+            <div class="point bottom-third"></div>
+            <p>red</p>
+          </div>
+
+          <div class="button-bottom">
+            <div class="point bottom-fourth"></div>
+            <p>blue</p>
+          </div>
+        </div>     
+      </div>
+
+      <div class="canvas-wrapper">
+        <canvas class="canvas"></canvas>       
+      </div>
+    </main>
+  </div>
+
+  <script src="./script.js"></script>
+ 
+</body>
+</html>
